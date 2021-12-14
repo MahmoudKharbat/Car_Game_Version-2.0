@@ -136,4 +136,9 @@ public class HomePageActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onBackPressed(){
+        finish();
+    }
+
 }
